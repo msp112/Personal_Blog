@@ -9,9 +9,10 @@ p {
 }
 
 .website-center {
-    background-image: url("neurons.jpg");
+    /*background-image: url("neurons.jpg"); */
+    background-color: #292827;
     min-height: 800px; 
-    min-width: 600px; 
+    min-width: 600px;  
     align-items: center; 
     display: flex;
     flex-direction: column;
@@ -20,7 +21,7 @@ p {
 
 .website-center::after { 
     content: '';
-    position: absolute; 
+    position: center; 
     z-index: -1; 
     inset: 0; 
     background: gray; 
@@ -61,10 +62,12 @@ p {
 }
 
 .tab-panel {
+    font-size: 20; 
     background-color: black;
     color: white;
     position: center;
     max-width: 880px; 
+    height: 400px;
     margin: auto; 
     box-sizing: border-box; 
     display: none; 
