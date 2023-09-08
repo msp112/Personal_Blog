@@ -67,7 +67,7 @@ p {
     color: white;
     position: center;
     max-width: 880px; 
-    height: 400px;
+    min-height: 400px;
     margin: auto; 
     box-sizing: border-box; 
     display: none; 
@@ -82,4 +82,9 @@ p {
     width: 220px; 
     border: none; 
     font-weight: bold; 
+}
+
+#my-PDF {
+    width: 85%; 
+    height: 900px; 
 }
